@@ -1,5 +1,7 @@
 ## FAQ
 
+Here are some answers to some popular questions from previous years.
+
 ### Lost In The Sauce?
 
 * Where do I begin? 
