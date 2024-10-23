@@ -133,6 +133,8 @@ Here is the Task Schema:
   - You don't need to host anywhere, we will check out your code locally, be sure to run your MongoDB server all the time
   - The example queries above will cover 70% grade, and another 30% of corner test cases will not be released.
 
+For answers to some popular questions see [FAQ.md](./FAQ.md).
+
 ### How to use the DB Scripts
 
 Assuming your API is fully operational (you need to have implement /users and /tasks endpoints for your API), these scripts (in database_scripts/ folder) will populate and clear your database as needed. 
