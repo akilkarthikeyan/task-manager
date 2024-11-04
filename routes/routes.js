@@ -44,7 +44,6 @@ module.exports = function (router) {
                 query = query.find(JSON.parse(where));
             }
             if (sort) {
-                console.log(sort)
                 query = query.sort(JSON.parse(sort));
             }
             if (select) {
@@ -270,7 +269,6 @@ module.exports = function (router) {
                 query = query.find(JSON.parse(where));
             }
             if (sort) {
-                console.log(sort)
                 query = query.sort(JSON.parse(sort));
             }
             if (select) {
@@ -338,7 +336,6 @@ module.exports = function (router) {
             let query = Task.findById(req.params.id);
             if(select) {
                 query = query.select(JSON.parse(select));
-                console.log(query)
             }
             const task = await query.exec();
             if (!task) {
